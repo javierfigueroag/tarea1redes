@@ -1,0 +1,9 @@
+name=Hamana00&ip=192.168.2.1&port=1314
+name=Hamana01&ip=192.168.2.1&port=1315
+name=Hamana02&ip=192.168.2.2&port=1314
+name=Hamana03&ip=192.168.2.7&port=1234
+name=Hamana04&ip=123.123.123&port=1234name=Hamana09&ip=1234&port=123456
+name=Hamana19&ip=213&port=2354
+name=Hamana20&ip=213&port=123
+name=Final&ip=123546&port=123
+nombre=asdf&ip=sadf&puerto=asdf

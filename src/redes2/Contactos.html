@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+     <title>Avioncito de Papel</title>
+     
+  </head>
+
+  <body>
+
+      
+    <div class="container">
+            <br>
+            <br>
+            <br>
+            <h1><a href="/Index.html" id="hover">Agregar Contacto</a><br></h1>
+            <br>
+            <br>
+
+
+      <div id="text"></div>    
+      
+    </div>
+
+  
+  </body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function() {
+       $.ajax({
+           url : "Contactos.txt",
+           dataType: "text",
+           success : function (data) {
+               $("#text").text(data);
+           },
+           error : function (data) {
+               $("#text").text("Error");
+           }
+   });
+}); 
+</script>
+
