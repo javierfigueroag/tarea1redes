@@ -1,34 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <title>Avioncito de Papel</title>
+    <style type="text/css">
+  body { font-family: Helvetica, Geneva, Arial,sans-serif;}
+  </style>
 
   </head>
 
   <body>
+  <center>
+      <h1>Chat:</h1>
+      <iframe src="Chat.html" width="800" height="300"></iframe>
 
     <div class="container">
-          <a href="/Contactos.html">Contactos</a>
-      <h1>Agregar Contacto</h1><br />
-      <form action="/Contactos.html" method="POST">
+      <h1> Enviar Mensaje:</h1>
+      
+      <form action="/Index.html" method="POST">
       	<div class="input-group">
-            <span class="input-group-addon">Nombre</span>
-  			<input name="nombre" type="text" class="form-control">
+            <span class="input-group-addon">Para (Puerto Cliente):</span>
+  			<input name="puerto" type="text" class="form-control">
+		</div> <br />
+            <span class="input-group-addon">Mensaje</span>
+  			<input name="mensaje" type="text" class="form-control">
 		</div> <br />
 		<div class="input-group">
                     <span class="input-group-addon">Direccion IP</span>
   			<input name="ip" type="text" class="form-control" >
 		</div> <br />
-		<div class="input-group">
-  			<span class="input-group-addon">Puerto</span>
-  			<input name="puerto" type="text" class="form-control">
-		</div><br />
 		<button type="submit" class="btn btn-primary">Guardar Contacto</button>
       </form><br />
-      
-
 
     </div> 
+  </center>
   </body>
 </html>
